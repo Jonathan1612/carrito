@@ -1,0 +1,73 @@
+/* Box sizing border box for all elements */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove list styles */
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+/* Remove default styles for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Remove default styles for paragraphs */
+p {
+    line-height: inherit;
+}
+
+/* Remove default styles for blockquotes */
+blockquote {
+    quotes: none;
+    font-size: inherit;
+}
+
+/* Remove default styles for table */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Set default styles for links */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Set default font family and font size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Additional resets if needed */
